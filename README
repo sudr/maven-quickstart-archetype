@@ -1,0 +1,6 @@
+# To create archetype first cd to project root and then
+mvn clean archetype:create-from-project
+
+# To install archetype into local maven repository
+cd target/generated-sources/archetype
+mvn install
